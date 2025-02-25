@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --app-background: url(assets/ocean-bg.jpg);
+  --bg-white-10: rgba(255, 255, 255, 0.1);
+  --bg-white-20: rgba(255, 255, 255, 0.2);
+  --bg-white-30: rgba(255, 255, 255, 0.3);
+}
+
+.bg-app-background {
+  background-image: var(--app-background);
+}
+
+.bg-white-10 {
+  background-color: var(--bg-white-10);
+}
+
+.bg-white-20 {
+  background-color: var(--bg-white-20);
+}
+
+.bg-white-30 {
+  background-color: var(--bg-white-30);
+}
